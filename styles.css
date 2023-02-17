@@ -11,12 +11,16 @@ body{
     background: #E3D6FA;
 }
 
+.width__controller{
+    width: 90%;
+    margin:0 auto;
+}
+
 .nav__container-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 49px;
-    background: white;
 }
 
 .logo{
