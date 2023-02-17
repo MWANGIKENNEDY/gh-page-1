@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background: #E3D6FA;
+}
+
+.nav__container-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+    background: white;
+}
+
+.logo{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+}
+
+.nav__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.nav__links li{
+    height: 36px;
+    width: 36px;
+    content: "";
+    border-radius: 50%;
+    background: black;
+}
+
+.main__wrapper{
+    margin-top: 78px;
+}
+
+.top__layer{
+
+}
+
+.card{
+    content: "";
+    background: #000000;
+    border-radius: 20px;
+    height: 85px;
+    margin-bottom: 20px;
+    padding-top: 24px;
+    padding-left: 17px;
+}
+
+.card__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.5994px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    letter-spacing: 0.045em;
+}
+
+.card__color{
+    content: "";
+    background: #33CC99;
+    width: 71px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.card__percentage{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 31.4034px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF
+
+}
+
+.card__internal{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.red__orange{
+    background: #4997d0;
+}
+
+.scarlet{
+    background: #fc6161;
+}
